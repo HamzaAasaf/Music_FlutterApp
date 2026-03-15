@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:music_player/controller/controller.dart';
 import 'package:music_player/core/resources/colors_manager.dart';
 
 class OnboardingScreen extends StatelessWidget {
@@ -103,7 +104,9 @@ class OnboardingScreen extends StatelessWidget {
                   ),
 
                   child: MaterialButton(
-                    onPressed: () {},
+                    onPressed: () {
+                      Controller.navigateToHome(context);
+                    },
                     child: Text(
                       'Get Started',
                       style: TextStyle(

@@ -63,6 +63,11 @@ flutter:
     - assets/music/ye.mp3
     - assets/images/men.png
     - assets/images/sp.png
+    - assets/images/Justin.png
+    - assets/images/Selena.png
+    - assets/images/anne.png
+    - assets/images/dj3.png
+    - assets/images/ty.jpg
 
 
   # An image asset can refer to one or more resolution-specific "variants", see

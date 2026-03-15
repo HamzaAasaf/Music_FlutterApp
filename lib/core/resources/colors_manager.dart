@@ -8,4 +8,6 @@ class ColorsManager {
   static const Color kgetstarteddark = Color.fromARGB(255, 1, 109, 172);
   static const Color kgetstartedlight = Color(0xff80CFF2);
   static const Color kspashmusic = Colors.cyan;
+  static const Color khomescreenlight = Color(0xff411F5C);
+  static const Color khomescreendark = Color.fromARGB(255, 65, 0, 119);
 }
